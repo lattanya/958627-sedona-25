@@ -623,13 +623,28 @@ a{
 	margin-bottom: 10px;
 }	
 
+.hotels-list-item-hotel{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.hotels-list-item-hotel:hover{
+	color: #81b3d2;
+}
+
+.hotels-list-item-hotel:active{
+	color: rgba(0, 0, 0, 0.3);
+}
+
 .hotels-list-item-price {
 	
 	display: flex;
 	box-sizing: border-box;
 	justify-content: space-between;
 	width: 180px;
-	padding-top: 0px;
+	padding-top: 7px;
 	padding-bottom: 18px;
 
 	list-style: none;
@@ -955,13 +970,17 @@ body {
 	justify-content: space-between;
 	padding-right: 100px;
 	padding-left: 132px;
-	padding-top: 16px;
+	padding-top: 30px;
 	padding-bottom: 36px;
 	align-items: center;
 	left: 0;
 	width: 100%;
 }
 
+
+.main-footer-inner p{
+	margin-right: 10px;
+}
 
 .footer-sotial-list {
 	display: flex;
@@ -1048,8 +1067,8 @@ padding-top: 28px;
 	width: 260px;
 	margin-right: 517px;
 	margin-left: 30px;
-	margin-bottom: 37px;
-	margin-top: 0;
+	margin-bottom: 32px;
+	margin-top: 24px;
 	
 	
 }
@@ -1291,7 +1310,8 @@ padding-top: 28px;
 }
 
 .range-toggle:hover {
-	background: #1c4f80;
+
+	border: 10px solid #ffffff;
 }
 
 .range-toggle-min {
