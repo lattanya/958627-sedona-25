@@ -11,16 +11,16 @@
 	<header class="main-header">
 		<nav class="main-navigation">
 			<a class="main-header-logo" href="index.html">
-				<img src="img/logo.png" width="140" height="72" alt="Логотип системы бронирования гостиниц города Седона">
+				<img src="img/logo.svg" width="140" height="72" alt="Логотип системы бронирования гостиниц города Седона">
 			</a>
 			<ul class="site-navigation">
-				<li>
+				<li class="site-navigation-list">
 					<a class="site-navigation-item" href="info.html">Информация</a></li>
-				<li>
+				<li class="site-navigation-list">
 					<a class="site-navigation-item" href="photo.html">Фото и видео</a></li>
-				<li>
+				<li class="site-navigation-list">
 					<a class="site-navigation-item" href="map.html">Карта штата</a></li>
-				<li>
+				<li class="site-navigation-list">
 					<a class="site-navigation-item" href="inner.html">Гостиницы</a></li>
 			</ul>
 		</nav>
@@ -70,7 +70,7 @@
 				</div>
 				<div class="price-controls"> 
 					<label class="min-price">от<input type="text" name="min-price" value=" 0"></label>
-					<label class="min-price">до<input type="text" name="max-price" value=" 3000"></label>
+					<label class="max-price">до<input type="text" name="max-price" value=" 3000"></label>
 				</div>
 				<div class="range-controls"> 
 					<div class="scale"></div>
@@ -117,14 +117,14 @@
 			<ul class="hotels-list">
 				<li class="hotels-list-item">
 					<div class="hotels-list-item-view">
-						<img src="img/AmaraResort.jpg" width="135" height="90" alt="Фотография Amara Resort & Spa">
+						<img src="img/amara-resort.jpg" width="135" height="90" alt="Фотография Amara Resort & Spa">
 					</div>
 					<div class="hotels-list-item-name">
 						<a class="hotels-list-item-hotel" href="AmaraResort.html">Amara Resort & Spa</a>
-						<ul class="hotels-list-item-price">
-							<li>Гостиница</li>
-							<li>от 4000 Р.</li>
-						</ul>
+						<div class="hotels-list-item-price">
+							<span>Гостиница</span>
+							<span>от 4000 Р.</span>
+						</div>
 						<div class="hotels-list-item-name-button">
 							<div class="hotels-list-item-name-more">
 								<a class="hotels-list-item-details" href="AmaraResort.html">Подробнее</a>
@@ -141,19 +141,19 @@
 								<li class="hotels-list-item-star"></li>
 								<li class="hotels-list-item-star"></li>
 							</ul>
-							<p class="hotels-list-item-rang">Рейтинг 8,5</p>
+							<p class="hotels-list-item-rang">Рейтинг: 8,5</p>
 						</div>
 				</li>	
 				<li class="hotels-list-item">
 					<div class="hotels-list-item-view">
-						<img src="img/DesertQuailInn.jpg" width="135" height="90" alt="Фотография Desert Quail Inn">
+						<img src="img/desert-quailInn.jpg" width="135" height="90" alt="Фотография Desert Quail Inn">
 					</div>
 					<div class="hotels-list-item-name">
 						<a class="hotels-list-item-hotel" href="DesertQuailInn.html">Desert Quail Inn</a>
-						<ul class="hotels-list-item-price">
-							<li>Мотель</li>
-							<li>от 3000 Р.</li>
-						</ul>
+						<div class="hotels-list-item-price">
+							<span>Мотель</span>
+							<span>от 3000 Р.</span>
+						</div>
 						<div class="hotels-list-item-name-button">
 							<div class="hotels-list-item-name-more">
 								<a class="hotels-list-item-details" href="DesertQuailInn.html">Подробнее</a>
@@ -169,20 +169,20 @@
 							<li class="hotels-list-item-star"></li>
 							<li class="hotels-list-item-star"></li>
 						</ul>
-						<p class="hotels-list-item-rang">Рейтинг 8,9</p>
+						<p class="hotels-list-item-rang">Рейтинг: 8,9</p>
 					</div>
 				</li>
 						
 				<li class="hotels-list-item">
 					<div class="hotels-list-item-view">
-							<img src="img/VillasatPocoDiablo.jpg" width="135" height="90" alt="Фотография Villas at Poco Diablo">
+							<img src="img/villasat-pocoDiablo.jpg" width="135" height="90" alt="Фотография Villas at Poco Diablo">
 					</div>
 					<div class="hotels-list-item-name">
 						<a class="hotels-list-item-hotel" href="VillasatPocoDiablo.html">Villas at Poco Diablo</a>
-						<ul class="hotels-list-item-price">
-							<li>Апартаменты</li>
-							<li>от 2000 Р.</li>
-						</ul>
+						<div class="hotels-list-item-price">
+							<span>Апартаменты</span>
+							<span>от 2000 Р.</span>
+						</div>
 						<div class="hotels-list-item-name-button">
 							<div class="hotels-list-item-name-more">
 								<a class="hotels-list-item-details" href="VillasatPocoDiablo.html">Подробнее</a>
@@ -197,7 +197,7 @@
 							<li class="hotels-list-item-star"></li>
 							<li class="hotels-list-item-star"></li>
 						</ul>
-						<p class="hotels-list-item-rang">Рейтинг 9,2</p>
+						<p class="hotels-list-item-rang">Рейтинг: 9,2</p>
 					</div>
 				</li>
 			</ul>
