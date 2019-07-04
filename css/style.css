@@ -292,9 +292,9 @@ a {
 	font-weight: normal;
 	color: #333333;
 	background-color: #ffffff;
-	margin-top: 24px;
-	margin-bottom: 45px;
-	margin-left: 382px;
+	margin-top: 25px;
+	margin-bottom: 47px;
+	margin-left: 381px;
 	width: 440px;
 }
 
@@ -482,8 +482,8 @@ a {
 	vertical-align: middle;
 	text-align: center;
 	padding-top: 14px;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-left: 0px;
+	margin-right: 6px;
 }
 
 .footer-social-button:hover {
@@ -523,7 +523,7 @@ a {
 	fill: #81b3d2;
 }
 
-.footer-logo-html-academy:active .footer-logo-html-academy-fill{
+.footer-logo-html-academy:active .footer-logo-html-academy-fill {
 	fill: #ebebeb;
 }
 
@@ -763,7 +763,7 @@ a {
 	padding-left: 68px;
 	padding-right: 62px;
 	padding-top: 58px;
-	padding-bottom: 68px;
+	padding-bottom: 71px;
 }
 
 .features-item {
@@ -782,7 +782,7 @@ a {
 	margin-left: 22px;
 }
 
-.features-item-sight h3{
+.features-item-sight h3 {
 	margin-top: 0;
 }
 
@@ -840,7 +840,7 @@ a {
 	box-sizing: border-box;
 	justify-content: space-between;
 	margin: 0 auto;
-	margin-bottom: 27px;
+	margin-bottom: 29px;
 	align-items: center;
 }
 
@@ -860,7 +860,7 @@ a {
 	align-items: center;
 }
 
-.booking-search-form-person-kids{
+.booking-search-form-person-kids {
 	display: flex;
 	box-sizing: border-box;
 	justify-content: space-between;
@@ -876,7 +876,7 @@ a {
 
 .maps {
 	height: 593px;
-	background-image: url(..//img/map.jpg);
+	background-image: url("..//img/map.jpg");
 }
 
 body {
@@ -889,8 +889,8 @@ body {
 	justify-content: space-between;
 	padding-right: 73px;
 	padding-left: 73px;
-	padding-top: 27px;
-	padding-bottom: 27px;
+	padding-top: 26px;
+	padding-bottom: 26px;
 	align-items: center;
 	background-color: rgba(255,255,255,0.8);
 	position: absolute;
@@ -912,10 +912,10 @@ body {
 	width: 100%;
 }
 
-.main-footer-text{
+.main-footer-text {
 	width: 240px;
 	text-align: center;
-	padding-left: 5px;
+	padding-left: 6px;
 }
 
 .footer-sotial-list {
@@ -950,7 +950,7 @@ body {
 	box-sizing: border-box;
 	width: 906px;
 	list-style: none;
-	padding-left:50px;
+	padding-left: 50px;
 	align-items: center;
 	margin: 0;
 }
