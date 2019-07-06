@@ -347,6 +347,7 @@ a {
 .booking-search-form-check-label {
 	letter-spacing: 0.4px;
 }
+
 .booking-search-form-check-box {
 	display: flex;
 	box-sizing: border-box;
@@ -391,6 +392,7 @@ a {
 .booking-search-form-check-button .calendar-icon {
 	fill: #cacaca;
 }
+
 .booking-search-form-check-button:hover .calendar-icon {
 	fill: #000000;
 }
@@ -1007,7 +1009,7 @@ a {
 	box-sizing: border-box;
 	border-bottom: 1px solid #f2f2f2;
 	padding-left: 74px;
-    padding-right: 74px;
+	padding-right: 74px;
 }
 
 .hotels-list-item-view {
