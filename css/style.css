@@ -58,25 +58,27 @@ a {
 	text-align: right;
 }
 
-.site-navigation-item:hover {
-	color: #81b3d2;
-}
-
-.site-navigation-item:focus {
-	color: rgba(0, 0, 0, 0.3);
-}
-
-.site-navigation-item:active .site-navigation-item--active {
-	color: #766357;
-}
-
 .site-navigation {
 	list-style:none;
 	width: 1200px;
 }
 
-.site-navigation a {
+.site-navigation-item {
 	color: #000000;
+}
+
+.site-navigation-item:hover,
+.site-navigation-item:focus {
+	color: #81b3d2;
+}
+
+.site-navigation-item:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation-item--active {
+	pointer-events: none;
+	color: #766357;
 }
 
 .welcome {
@@ -975,7 +977,7 @@ body {
 	margin: 0;
 }
 
-.hotels-sort-list-arrows-fill .hotels-sort-list-arrows-fill-up {
+.hotels-sort-list-arrows-fill-up {
 	fill: #cacaca;
 }
 
