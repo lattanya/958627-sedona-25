@@ -1,5 +1,5 @@
 ﻿body {
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 0;
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 21px;
@@ -670,7 +670,7 @@ a {
 	color: #666666;
 	background-color: #f2f2f2;
 	margin: 46px 0 0 0;
-	padding: 6px 12px 6px 15px;
+	padding: 4px 12px 4px 15px;
 }
 
 /*--------------сеточные стили----------------------------*/
@@ -820,6 +820,9 @@ a {
 	transform: translateX(-50%);
 	transition-property: opacity, transform;
 	transition-duration: 1000ms;
+	width: 568px;
+	height: 395px;
+	box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
 
 .booking-form--hidden {
@@ -880,9 +883,10 @@ a {
 .maps {
 	height: 593px;
 	background-image: url("..//img/map.jpg");
+	background-color: #ebebeb
 }
 
-body {
+.index-page {
 	position: relative;
 }
 
@@ -895,7 +899,7 @@ body {
 	padding-top: 26px;
 	padding-bottom: 26px;
 	align-items: center;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -1007,15 +1011,15 @@ body {
 }
 
 .hotels-list-item-view {
-	padding-top: 30px;
+	padding-top: 28px;
 }
 
 .hotels-list-item-name {
 	width: 260px;
 	margin-right: 518px;
 	margin-left: 29px;
-	margin-bottom: 33px;
-	margin-top: 25px;
+	margin-bottom: 35px;
+	margin-top: 22px;
 }
 
 .hotels-list-item-name-button {
