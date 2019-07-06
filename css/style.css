@@ -66,7 +66,7 @@ a {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.site-navigation-item:active {
+.site-navigation-item:active .site-navigation-item--active {
 	color: #766357;
 }
 
@@ -529,11 +529,6 @@ a {
 
 /*стилизация страницы с отелями*/
 
-.hotels {
-	padding-left:74px;
-	padding-right:74px;
-}
-
 .hotels-list {
 	background-color: #ffffff;
 	padding-left: 0;
@@ -605,6 +600,12 @@ a {
 
 .hotels-sort-list-item:active {
 	color: #000000;
+	text-decoration: none;
+	border-bottom-color: transparent;
+}
+
+.hotels-sort-list-item--active {
+	color: #81b3d2;
 	text-decoration: none;
 	border-bottom-color: transparent;
 }
@@ -777,9 +778,9 @@ a {
 }
 
 .features-item-sight {
-	width: 208px;
+	width: 210px;
 	text-align: center;
-	margin-left: 22px;
+	margin-left: 20px;
 }
 
 .features-item-sight h3 {
@@ -943,6 +944,7 @@ body {
 	display: flex;
 	box-sizing: border-box;
 	padding: 31px;
+	border-bottom: 1px solid #f2f2f2;
 }
 
 .hotels-sort-list {
@@ -990,10 +992,16 @@ body {
 	fill: #81b3d2;
 }
 
+.hotels-sort-list-arrows-fill-up--active {
+	fill: #81b3d2;
+}
+
 .hotels-list-item {
 	display: flex;
 	box-sizing: border-box;
 	border-bottom: 1px solid #f2f2f2;
+	padding-left: 74px;
+    padding-right: 74px;
 }
 
 .hotels-list-item-view {
@@ -1002,10 +1010,10 @@ body {
 
 .hotels-list-item-name {
 	width: 260px;
-	margin-right: 517px;
-	margin-left: 30px;
-	margin-bottom: 30px;
-	margin-top: 23px;
+	margin-right: 518px;
+	margin-left: 29px;
+	margin-bottom: 33px;
+	margin-top: 25px;
 }
 
 .hotels-list-item-name-button {

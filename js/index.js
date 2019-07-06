@@ -6,7 +6,7 @@ if (popup.classList.contains('booking-form--nojs')) {
 }
 button.addEventListener("click", function(evt) {
 	evt.preventDefault();
-	
+
 	if (popup.classList.contains("booking-form--hidden")) {
 		popup.classList.remove("booking-form--hidden");
 		popup.classList.add("booking-form--showed");
@@ -15,6 +15,5 @@ button.addEventListener("click", function(evt) {
 		popup.classList.add("booking-form--hidden");
 		popup.classList.remove("booking-form--showed");
 	}
-	
+
 	});
-	
